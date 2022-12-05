@@ -1,3 +1,8 @@
+*{
+    font-family: 'Poppins';
+}
+
+
 :root {
     --primary: #53C2C5;
     --secondary: #285f61; 
