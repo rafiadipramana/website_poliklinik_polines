@@ -24,7 +24,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">Beranda</a>
+                        <a class="nav-link" href="index.html">Beranda</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="index.html">Tentang</a>
@@ -37,80 +37,24 @@
                     </li>
                 </ul>
                 <a href="login.html" class="btn mx-1">Login</a>
-                <button type="button" class="btn mx-1">Sign Up</button>
+                <a href="signup.html" class="btn active mx-1">Sign Up</a>
             </div>
         </div>
     </nav>
 
-    <div class="hero vh-100 d-flex align-items-center">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-7 mx-auto text-center">
-                    <h1 class="display-5 text-white" style="font-weight: 600;">
-                        Sistem Informasi Poliklinik
-                    </h1>
-                    <p class="text-white my-3">Poliklinik Politeknik Negeri Semarang melayani kebutuhan kesehatan mahasiswa. Kami menyediakan beberapa layanan seperti cek kesehatan, pengobatan, dan lainnya.</p>
-                    <a href="#service-card" class="btn me-3 button-effect" style="background-color :#285f61;">Lihat Layanan Kami</a>
-                </div>
-            </div>
+    <div class="hero vh-100 d-flex align-items-center justify-content-center">
+        <div class="login-form-dialog">
+        <!-- Login Form -->
+            <form class="login d-flex flex-column align-content-between text-center">
+                <h2 style="margin-top: 20px; margin-bottom: 20px; font-size: 25px; font-weight: bold;">Sign Up</h2>
+                <input type="text" placeholder="First Name">
+                <input type="text" placeholder="Last Name">
+                <input type="text" placeholder="Username">
+                <input type="password" placeholder="Password">
+                <button class="btn-submit button-effect">Sign Up</button>
+            </form>
         </div>
     </div>
-
-    <!-- Service -->
-    <section id="service-card">
-        <div class="container text-center mt-5">
-            <h3>Layanan Mahasiswa</h3>
-        </div>
-        <div class="container mt-5 mb-5">
-            <div class="row d-flex justify-content-center">
-                <div class="col">
-                  <div class="card h-100 card-effect">
-                    <div class="mb-3" style="width: auto; height: 200px;">
-                        <img src="img/daftar-obat.png" class="card-img-top" alt="...">
-                    </div>
-                    <div class="card-body">
-                      <h5 class="card-title text-center">Daftar Obat</h5>
-                      <p class="card-text text-center">Melayani pembelian obat.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card h-100 card-effect">
-                    <div class="mb-3" style="width: auto; height: 200px;">
-                        <img src="img/layanan-mahasiswa.png" class="card-img-top" alt="...">
-                    </div>
-                    <div class="card-body">
-                      <h5 class="card-title text-center">Layanan Mahasiswa Lainnya</h5>
-                      <p class="card-text text-center">Akses layanan mahasiswa lainnya.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card h-100 card-effect">
-                    <div class="mb-3" style="width: auto; height: 200px;">
-                        <img src="img/artikel.png" class="card-img-top" alt="...">
-                    </div>
-                    <div class="card-body">
-                      <h5 class="card-title text-center">Artikel Kesehatan</h5>
-                      <p class="card-text text-center">Baca artikel kesehatan untuk membiasakan hidup sehat.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card h-100 card-effect">
-                    <div class="mb-3" style="width: auto; height: 200px;">
-                        <img src="img/janji-temu-dokter.png" class="card-img-top" alt="...">
-                    </div>
-                    <div class="card-body">
-                      <h5 class="card-title text-center">Janji Temu Dokter</h5>
-                      <p class="card-text text-center">Buat janji dengan dokter untuk cek kesehatanmu.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-        </div>
-    </section>
-    
 
     <!-- Footer -->
     <footer>

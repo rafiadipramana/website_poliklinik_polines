@@ -16,10 +16,11 @@ body{
     font-family: 'Poppins';
 }
 
+/* 
 section{
     padding-top: 50px;
     padding-bottom: 50px;
-}
+} */
 
 h3{
     font-weight: bold;
@@ -29,6 +30,34 @@ h3{
 footer {
     background-color: #285f61;
     height: auto;
+    padding-top: 50px;
+}
+
+input {
+    display: block;
+    border-radius: 5px;
+    font-size: 16px;
+    background: white;
+    width: auto;
+    border: 0;
+    padding: 10px 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.btn-submit {
+    display: block;
+    border-radius: 5px;
+    font-size: 16px;
+    background: var(--secondary);
+    width: auto;
+    border: 0;
+    padding: 10px 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 .btn {
@@ -46,6 +75,12 @@ footer {
 }
 
 .btn:hover {
+    background-color: #285f61;
+    color: white;
+    font-size: 14px;
+}
+
+.btn.active {
     background-color: #285f61;
     color: white;
     font-size: 14px;
@@ -127,7 +162,12 @@ footer {
 }
 
 .login-form-dialog {
-    height: 300px;
-    width: 200px;
+    height: auto;
+    width: 400px;
     border-radius: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
 }
